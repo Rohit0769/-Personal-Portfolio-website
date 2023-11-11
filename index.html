@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5d8d1412fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Rohit - Developer Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <nav class="right">
+                <a href="https://www.youtube.com">Rohit's Portfolio</a>
+            </nav>
+            <nav class="left">
+                <i onclick="openmenu()" class=" fas1 nn1 fa-solid fa-bars"></i>
+                <ul id="sidemenu">
+                    <li><a class="ri" href=""> Home</a></li>
+                    <li><a href="#about">About Me</a> </li>
+                    <li><a href="#services">Services</a> </li>
+                    <li><a href="#portfolio">Portfolio</a> </li>
+                    <li><a href="#contact">Contact Me</a> </li>
+                    <i onclick="closemenu()" class=" fas nn fa-sharp fa-solid fa-xmark"></i>
+
+                </ul>
+            </nav>
+        </nav>
+    </div>
+
+    <section class="firstsection">
+
+        <div class="leftsection">
+
+            <span style="font-size: 2.8rem;">Hi</span>, I am <span
+                style="font-size: 2.5rem; color: purple;">Rohit</span> and
+            <div style="">I am a Passionate In</div>
+            <span style="  color: purple;" id="element"></span>
+            <div style="margin-top: 5px;" class="but">
+                <a style="text-decoration: none;" href="Rohit's Resume (or).docx">
+
+                    <button type="Download" class="btn">Download Resume</button>
+                </a>
+                <a target="_blank" style="text-decoration: none;" href="https://github.com/dashboard">
+
+                    <button class="btn">Visit GitHub</button>
+                </a>
+            </div>
+        </div>
+        <div class="rightsection">
+        </div>
+
+    </section>
+    <hr>
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.png" alt="" srcset="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="head">About Me</h1>
+                <p class="para">Senior Web Developer specializing in front end development. Experienced with all stages
+                    of the development cycle for dynamic web projects. Well-versed in numerous programming languages
+                    including HTML5, Nodejs, JavaScript, CSS, MongoDB, MySQL. Strong background in project management
+                    and customer relations.</p>
+
+                <div class="tab">
+                    <p class="links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="links" onclick="opentab('education')">Education</p>
+                    <p class="links" onclick="opentab('experience')">Experience</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend Development</span><br>Web/App Designing Using HTML, CSS and Javascript</li>
+                        <li><span>Backend Development</span><br>Server Side Script/DataBase Management <br> Using Nodejs
+                            and MongoDb With REST (APIs)</li>
+                        <li><span>MERN Stack Development</span><br>Developed React and Next.js Apps with Expressjs
+                            Framework With MongoDb</li>
+                    </ul>
+                </div>
+                <div class="tab-contents " id="education">
+                    <ul>
+                        <li><span>YEAR (2021) - (2022)</span><br> Class - 12th Subject - (Bio - Science) <br> Shubhas
+                            Excellence Hr. Sec. School <br>Percentage - 68% </li>
+                        <li><span>YEAR (2023) - (2023)</span><br>Iti Diploma Trade - COPA <br>Divisional Iti Govindpura
+                            Bhopal. <br>Percentage - 90.1%</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Fresher 2022 - Current Time</span><br>I Not Have Any Experience For Particular Company
+                            and StartUp <br> But I have Great Knowledge and Differnt Skills For This Field </li>
+                        <li><span>Projects</span><br>But I have do Many Projects Only By ME You Can See This Projects In
+                            <br> My Work And Projects Section </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="head2">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2 class="head1">Frontend Design</h2>
+                    <p class="para1">Designing Web Page's Frontend Interfaces With The Web Languages HTML, CSS and
+                        JavaScript and Writing Frontend Web Page Logic With JavaScript to Make Website User Friendly and
+                        Interactive </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-server"></i>
+                    <h2 class="head1">Backend Script</h2>
+                    <p class="para1">Writing Backend Logic and Server Side Script With The Backend Language Nodejs and
+                        Using Fetch APIs And Rest APIs and Deploying Web Pages</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2 class="head1">MERN Stack</h2>
+                    <p class="para1">Make React and Next.js Apps in Expressjs Framework and Using MongoDB as a NoSQL
+                        Database to Devloped End To End Website and React Apps </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container2">
+            <h1 class="head2">My Work and Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Dance.jpg" alt="" srcset="">
+                    <div class="layer">
+                        <h3 class="head3">Dance Website</h3>
+                        <p class="para2">This is Complete Dance Website Made From Html, CSS and Javascript with end to end Project</p>
+                        <a target="_blank" href="https://rohitdanceacademy.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="port.jpg" alt="" srcset="">
+                    <div class="layer">
+                        <h3 class="head3">Personal Portfolio</h3>
+                        <p class="para2">You Have already using this website it is also made from using Html, CSS and Javascript </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Dance1.jpg" alt="" srcset="">
+                    <div class="layer">
+                        <h3 class="head3">Coming Soon</h3>
+                        <p class="para2">This Project is Updated Soon and Many Project Has Been Coming Soon</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn1">See More</a>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container1">
+            <div class="row">
+                <div class="left-contact">
+                    <h1 class="head4">Contact Me</h1>
+                    <p class="para3"><i class="fa-solid fa-paper-plane"></i> rohitgupta0769@gmail.com</p>
+                    <p class="para3"><i class="fa-solid fa-phone"></i> 7489511149</p>
+                    <div class="icon">
+                        <p class="para4"><a
+                                href="https://instagram.com/its__rohit__69?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="
+                                target="_blank"><i class="fa-brands fa-instagram"></i></a></p>
+                        <p class="para4"><a
+                                href="https://www.facebook.com/profile.php?id=100061770303499&mibextid=ViGcVu"
+                                target="_blank"><i class="fa-brands fa-square-facebook"></i></a></p>
+                        <p class="para4"><a href="https://twitter.com/RohitGupta74379" target="_blank"><i
+                                    class="fa-brands fa-twitter"></i></a></p>
+                    </div>
+                    <a style="text-decoration: none;" href="Rohit's Resume (or).docx">
+
+                        <button type="Download" class="btn6">Download CV</button>
+                    </a>
+                </div>
+                <div class="right-contact">
+                    <form name="submit-to-google-sheet" id='contact'>
+                        <input type="text" name="name" placeholder="Enter your name" id='name'>
+                        <input type="text" name="Phone" placeholder="Enter Your Phone No." id='Phone'>
+                        <input type="text" name="E-mail" placeholder="Enter Your E-mail" id='Email'>
+                        <textarea name="message" id="More" cols="25" rows="6" placeholder="More about you.."></textarea>
+                        <button class="btn5" id="bt1">submit</button>
+
+                        <span id="msg"></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="rights">
+
+        <p>
+
+            Copyright &#9400; www.rohitportfolio.com | All Rights are Reserved
+        </p>
+    </div>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+      
+
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwLHCVrcIcjQw64dFoDfOVhI6SzniXwoCtmSScOfXAblLsg-OxLxewavOoFRzX7L1yn3w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message was sent Successfully"
+            setTimeout(() => {
+              msg.innerHTML = ""  
+            }, 5000);
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script>
+
+    var typed = new Typed('#element', {
+        strings: ['Frontend Development', 'Backend Development ', 'and MERN Stack Development'],
+        typeSpeed: 50,
+    });
+
+
+
+
+    let links = document.getElementsByClassName("links")
+    let contents = document.getElementsByClassName("tab-contents")
+    opentab = (tabname) => {
+        for (link of links) {
+            link.classList.remove("active-link")
+        }
+        for (content of contents) {
+            content.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+
+    }
+
+    let sidemenu = document.getElementById("sidemenu")
+
+
+    closemenu = () => {
+        sidemenu.style.right = "-200px"
+    }
+
+    openmenu = () => {
+        sidemenu.style.right = "0"
+    }
+
+
+
+</script>
+
+
+
+</html>
